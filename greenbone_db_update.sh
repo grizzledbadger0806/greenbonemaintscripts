@@ -9,8 +9,4 @@ docker compose -f /home/$(whoami)/greenbone-community-container/docker-compose.y
 
 docker compose -f /home/honeybadger/greenbone-community-container/docker-compose.yml -p greenbone-community-edition up -d notus-data vulnerability-tests scap-data dfn-cert-data cert-bund-data report-formats data-objects
 
-docker container prune --force
-docker network prune --force
-docker volume prune --force
-docker image prune --force
-
+docker system prune -af --volumes
