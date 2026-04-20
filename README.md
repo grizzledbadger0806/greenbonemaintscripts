@@ -100,12 +100,3 @@ Pull requests and improvements are welcome. This project is kept intentionally s
 ## 📜 License
 
 This repository is licensed under the MIT License.
-
----
-
-If you'd like, I can also:
-
-- Generate shields.io badges specific to your repo
-- Add ASCII logos
-- Create an "advanced usage" section
-- Build a unified installer script
